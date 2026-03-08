@@ -48,3 +48,9 @@ border-radius:5px;
 .card p{
 margin-top:10px;
 }
+
+.container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
