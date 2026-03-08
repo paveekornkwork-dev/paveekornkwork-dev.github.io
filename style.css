@@ -1,5 +1,5 @@
 body{
-font-family: Arial, sans-serif;
+font-family: Arial;
 background:#f4f4f4;
 margin:0;
 text-align:center;
@@ -17,12 +17,8 @@ text-decoration:none;
 font-weight:bold;
 }
 
-nav a:hover{
-color:#00adb5;
-}
-
-header{
-margin-top:40px;
+h2{
+margin-top:50px;
 }
 
 .container{
@@ -33,24 +29,19 @@ justify-content:center;
 
 .card{
 background:white;
-width:260px;
+width:420px;   /* รูปใหญ่ขึ้น */
 margin:20px;
-padding:10px;
+padding:15px;
 border-radius:10px;
-box-shadow:0 2px 8px rgba(0,0,0,0.1);
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
 
 .card img{
 width:100%;
-border-radius:5px;
+border-radius:8px;
 }
 
-.card p{
-margin-top:10px;
-}
-
-.container{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
+.card img:hover{
+transform:scale(1.05);
+transition:0.3s;
 }
